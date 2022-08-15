@@ -1,0 +1,18 @@
+
+{
+    "GET_pairs" : [
+        {
+            "GET_key" : "page",
+            "GET_values": ["login", "chrono", "gestion", "accueil"]
+        },
+        {
+            "GET_key" : "opt",
+            "GET_values": ["newE", "SBD"]
+        },
+        {
+            "GET_key" : "task",
+            "GET_values": ["logout"]
+        }
+    ]
+    
+}

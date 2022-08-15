@@ -1,0 +1,6 @@
+{
+    "gestion" : "../Vues/vue_gestion.php",
+    "login" : "../Vues/vue_login.php",
+    "accueil" : "../Vues/vue_accueil.php",
+    "chrono" : "../Vues/vue_chrono.php"
+}

@@ -1,0 +1,350 @@
+@font-face {
+    font-family: "dollar";
+    src: url("polices/DollarBill-5EwZ.ttf");
+}
+
+@font-face {
+    font-family: "8-bit";
+    src: url("polices/8bitOperatorPlus8-Bold.ttf");
+}
+
+.body-lv {
+    background-color: #6c757d;
+}
+
+header h1 {
+    font-family: "dollar";
+}
+
+#titre {
+    background-color: #42a867;
+    color: white;
+}
+
+#chrono {
+    font-family: "8-bit";
+    color: #42a867;
+}
+
+#boutons {
+    margin-bottom: 1rem;
+}
+
+.sidebox {
+    color: #70c78f;
+}
+
+.sideboxnest {
+    background-color: #f8f9fa;
+    border: 0.1rem solid #343f49;
+    border-radius: 10px;
+}
+
+.sideboxnest ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sideboxnest li a {
+    color: inherit;
+}
+
+#fenvoi {
+    display: inline;
+}
+
+#icache {
+    display: none;
+}
+
+#cpartitxt {
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.formentries th, .formentries td {
+    border: 0.1rem solid black;
+    padding: 0.2rem;
+}
+
+.contenu-b {
+    position: relative;
+    bottom: 0.1rem;
+}
+
+#fNextRows, #fSelectRows, #lselection, #fPrevRows {
+    display: inline-block;
+}
+
+#form-login {
+    border: 0.1rem solid #6c757d;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+#alert-log, #alert-logout {
+    margin-top: 2rem;
+}
+
+#div-err {
+    font-weight: bold;
+}
+
+.hrmod {
+    border-width: 0.2rem;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+/*partie responsive*/
+
+header h1 {
+    font-size: 2.7rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+#chrono {
+    font-size: 4rem;
+}
+
+.sidebox, #cparti {
+    margin-top: 0.5rem;
+}
+
+#navul {
+    margin-bottom: 0.2rem;
+}
+
+#navul li {
+    display: inline-block;
+}
+
+.sideboxnest li a {
+    font-size: 0.95rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#horloge {
+    width: 180px;
+}
+
+#cpartitxt {
+    font-size: 1.5rem;
+}
+
+#affichage-gestion {
+    font-size: 0.8rem;
+}
+
+.cust-btn {
+    font-size: 0.75rem;
+}
+
+.chrobtn {
+    font-size: 0.7rem;
+}
+
+#danger {
+    width: 16rem;
+    margin: 2.5rem 0 1rem 0;
+}
+
+#div-err {
+    font-size: 1.5rem;
+}
+
+#sep-np {
+    display: none;
+}
+
+#sep-ssel {
+    display: none;
+}
+
+.alrtcust {
+    margin-top: 1rem;
+}
+
+@media (min-width: 386px) {
+    #sep-ssel {
+        display: initial;
+    }
+}
+
+@media (min-width: 576px) {
+    header h1 {
+        font-size: 4rem;
+    }
+    #affichage-gestion {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    #chrono {
+        font-size: 6rem;
+    }
+    
+    .sideboxnest li a {
+        font-size: 1.6rem;
+    }
+    #horloge {
+        width: 200px;
+    }
+    #cpartitxt {
+        font-size: 1.6rem;
+    }
+    .cust-btn {
+        font-size: 1rem;
+    }
+    .chrobtn {
+        font-size: 1rem;
+    }
+    #danger {
+        width: 20rem;
+        margin: 3rem 0 1.2rem 0;
+    }
+    #div-err {
+        font-size: 2rem;
+    }
+    #br-np {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 4.1rem;
+    }
+    h2 {
+        font-size: 1.9rem;
+    }
+    li {
+        font-size: 0.9rem;
+    }
+    #affichage {
+        margin-top: 10rem;
+    }
+    .sidebox, #cparti, #affichage-gestion {
+        margin-top: 5rem;
+    }
+    .sideboxnest {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .sideboxnest li a {
+        font-size: 1.3rem;
+    }
+    #formentries td, #formentries th {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .navgeschro li a {
+        font-size: 1.9rem;
+    }
+    .tngeschro {
+        font-size: 2.8rem;
+    }
+    #uldt_chro li {
+        font-size: 1.4rem;
+    }
+    #danger {
+        width: 22.5rem;
+        margin: 3.5rem 0 1.5rem 0;
+    }
+    #div-err {
+        font-size: 2.2rem;
+    }
+    #sep-np {
+        display: initial;
+    }
+    .alrtcust {
+        margin-top: initial;
+    }
+}
+
+@media (min-width: 992px) {
+    header h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    li {
+        font-size: 1rem;
+    }
+    .sideboxnest li a {
+        font-size: 1.4rem;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    #horloge {
+        width: 250px;
+    }
+    #cpartitxt {
+        font-size: 2rem;
+    }
+    #formentries td, #formentries th {
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+    }
+    .navgeschro li a {
+        font-size: 2rem;
+    }
+    .tngeschro {
+        font-size: 2.9rem;
+    }
+    #uldt_chro li {
+        font-size: 1.5rem;
+    }
+    #danger {
+        width: 25rem;
+        margin: 4rem 0 1.75rem 0;
+    }
+    #div-err {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    header h1 {
+        font-size: 5.5rem;
+    }
+    h2 {
+        font-size: 2rem !important;
+    }
+    li {
+        font-size: 1rem;
+    }
+    .sideboxnest li a {
+        font-size: 1.4rem;
+    }
+    #formentries td, #formentries th {
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
+    }
+    .navgeschro li a {
+        font-size: 1.4rem;
+    }
+    #uldt_chro li {
+        font-size: 1rem;
+    }
+    #danger {
+        margin: 5rem 0 2rem 0;
+        width: 30rem;
+    }
+    #div-err {
+        font-size: 3rem;
+    }
+    #navul li {
+        display: list-item;
+    }
+}
+
